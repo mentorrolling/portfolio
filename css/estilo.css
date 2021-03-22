@@ -1,0 +1,104 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.navbar-dark .navbar-toggler {
+  border-color: #ddd;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #1abc9c;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1abc9c;
+}
+.navbar-dark .navbar-brand {
+  color: #1abc9c;
+}
+.activado {
+  border-bottom: 2px solid #1abc9c;
+  font-weight: bold;
+}
+
+#main .carousel-inner img {
+  max-height: 80vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#carousel h1 {
+  font-size: 80px;
+}
+
+.imagen-work:hover {
+  opacity: 0.6;
+}
+
+p {
+  color: black;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-portfolio {
+  color: white;
+  background-color: #1abc9c;
+}
+.btn-portfolio:hover {
+  color: white;
+  background-color: #069276;
+}
+
+.redes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+.footer-wrap {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #2f2f2f;
+  color: white;
+}
+.section-blog {
+  margin-top: 60px;
+
+  max-width: 100%;
+}
+
+.container-avatar {
+  position: relative;
+  top: -30px;
+}
+.img-blog {
+  width: 100%;
+}
+.img-avatar {
+  width: 100px;
+  border-radius: 100%;
+  border: 2px solid rgb(165, 160, 160);
+}
